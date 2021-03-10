@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
   connectedCallback(){
     this.innerHTML = `
     <footer>
-  <h1 class="fquote">"A SUPER FANCY QUOTE FOR THE SITE"</h1>
+  <h1 class="fquote">Secure your home from mother nature and the power bill</h1>
   <div class="fsocials">
 
   </div>
