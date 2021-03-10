@@ -260,7 +260,9 @@ input{
   text-align: right;
 
 }
-
+.textpara, .boxtext{
+  text-align: center;
+}
 .menu{
   display: block;
   margin-left: 50%;
