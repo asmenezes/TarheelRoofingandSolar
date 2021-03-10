@@ -54,7 +54,6 @@ input{
 .navlist li{
   display: inline-block;
   color: white;
-
   margin: 1em;
   margin-top: 50px;
 
@@ -187,7 +186,7 @@ input{
   display: none;
   position:  absolute;
   background-color: var(--action-color);
-  z-index: 1;
+  z-index: 2;
   padding: 1em;
   padding-top: 0;
 }
@@ -197,9 +196,13 @@ input{
 .navdropdowncont a{
   display: block;
   margin-top: 1em;
+  z-index: 2;
 }
 .navdropdowncont a:hover{
   color: var(--logo-dark);
+}
+.menu{
+  display: none;
 }
 /*end dropdown*/
 #mainheader{
@@ -220,4 +223,55 @@ input{
   display: grid;
   grid-template-columns: min-content 1fr max-content;
   height: calc(100px + 2em);
+
+}
+@media screen and (max-width: 740px) {
+.halfImage{
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.skinny{
+  padding: 10vw 10vh;
+
+}
+.doubler{
+  display: grid;
+  grid-row-gap: 25px;
+  grid-template-columns: 1fr;
+}
+.diss{
+  display: none;
+}
+.navlist{
+  display: inline-block;
+  background-color: var(--action-color);
+  z-index: 1;
+}
+.navlist li{
+  display: block;
+  color: white;
+  margin: 1em;
+  margin-top: 25px;
+  text-align: right;
+
+}
+.menu{
+  display: block;
+  margin-left: 80%;
+}
+.navdropdowncont{
+  display: none;
+  position:  relative;
+  background-color: var(--action-color);
+  z-index: 1;
+  padding-bottom: 1em;
+}
+#mainhero{
+  color:white;
+  text-align: center;
+  padding: 1em;
+  font-size: 300%;
+}
 }
