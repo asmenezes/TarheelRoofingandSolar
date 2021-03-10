@@ -12,7 +12,7 @@ class NestedHeader extends HTMLElement {
   </a>
   <div class="space"></div>
   <ul class="navlist">
-      <li> <img src="../assets/menu.svg" alt="menu" class="menu"> </li>
+      <li onclick="menuSwap()"> <img src="../assets/menu.svg" alt="menu" class="menu"> </li>
     <li><a href="../index.html">HOME</a></li>
     <li><div class="navdropdown">
       <a href="../about/what-we-do.html">

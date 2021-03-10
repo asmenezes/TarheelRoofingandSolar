@@ -244,12 +244,15 @@ input{
 .diss{
   display: none;
 }
-.navlist{
+.navlist li:not(:first-child){
+  display: none;
+}
+.navlist.res {
   display: inline-block;
   background-color: var(--action-color);
   z-index: 1;
 }
-.navlist li{
+.navlist.res li{
   display: block;
   color: white;
   margin: 1em;
@@ -257,8 +260,12 @@ input{
   text-align: right;
 
 }
+
 .menu{
   display: block;
+  margin-left: 50%;
+}
+.navlist.res .menu{
   margin-left: 80%;
 }
 .navdropdowncont{
