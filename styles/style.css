@@ -275,6 +275,9 @@ input{
   z-index: 1;
   padding-bottom: 1em;
 }
+.navdropdown .navdropdowncont{
+  display: block;
+}
 #mainhero{
   color:white;
   text-align: center;
