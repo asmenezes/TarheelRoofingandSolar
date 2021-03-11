@@ -8,7 +8,7 @@ class BaseHeader extends HTMLElement {
       <!--Navigation-->
   <nav id="topnav">
     <a href="./index.html">
-  <img class = "logo" src="./assets/Logo.png" alt="logo"/>
+  <img class = "logo" src="./assets/WhiteLogo.png" alt="logo"/>
   </a>
   <div class="space"></div>
   <ul class="navlist">
