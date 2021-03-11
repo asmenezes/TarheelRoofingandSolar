@@ -251,6 +251,7 @@ input{
   display: inline-block;
   background-color: var(--action-color);
   z-index: 1;
+  min-height: 100vh;
 }
 .navlist.res li{
   display: block;
@@ -258,6 +259,7 @@ input{
   margin: 1em;
   margin-top: 25px;
   text-align: right;
+
 
 }
 .textpara, .boxtext{
@@ -276,6 +278,7 @@ input{
   background-color: var(--action-color);
   z-index: 1;
   padding-bottom: 1em;
+
 }
 .navdropdown .navdropdowncont{
   display: block;
