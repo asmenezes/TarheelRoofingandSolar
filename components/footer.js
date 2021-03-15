@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
 
   </div>
   <br>
-  <p class="ftext">THE COMPANY ADDRESS GOES HERE</p>
+  <p class="ftext">info@tarheelroofingandsolar.com</p>
   <br>
   <p class="ftext">1-919-245-7766</p>
   <br>
