@@ -239,6 +239,7 @@ input{
   height: calc(100px + 2em);
 
 
+
 }
 #vidcut{
   display: block;
@@ -267,9 +268,9 @@ left: 45%;
 transform: translateX(-45%) translateY(-45%);
   background-size: cover;
 
-background-image:url('../assets/0877.JPG');
+background-image:url('../assets/sidepic.jpg');
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 .halfImage{
   width: 75vw;
   margin-left: auto;
