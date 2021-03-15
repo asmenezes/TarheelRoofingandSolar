@@ -4,7 +4,7 @@ class NestedHero extends HTMLElement {
   }
   connectedCallback(){
     this.innerHTML = `
-    <header class = "heroheader" style='background-image:url(${this.getAttribute('image').toString()})' >
+    <header class = "heroheader ${this.getAttribute('class')? this.getAttribute('class').toString():''}" style='background-image:url(${this.getAttribute('image').toString()})' >
     <div style = 'background-color: rgba(0,0,0,0.5); height: 100%;'>
       <!--Navigation-->
   <nav id="topnav">
@@ -51,7 +51,7 @@ class NestedHero extends HTMLElement {
   </ul>
   </nav>
 
-</div> 
+</div>
     </header>
     `
   }
