@@ -55,6 +55,7 @@ input{
   display: inline-block;
   color: white;
   margin: 1em;
+  padding-right: 0.5em;
   margin-top: 50px;
 
 }
@@ -320,9 +321,14 @@ background-image:url('../assets/0877.JPG');
 .navdropdowncont{
   display: none;
   position:  relative;
-  background-color: var(--action-color);
+  background-color: var(--accent-color);
   z-index: 2;
-  padding-bottom: 1em;
+  margin-left: -1em;
+margin-right: -2em;
+  width: 100%;
+  padding: 1em;
+  padding-top: .5em;
+  padding-right: 1em;
 
 }
 .navdropdown .navdropdowncont{
