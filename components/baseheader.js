@@ -19,9 +19,9 @@ class BaseHeader extends HTMLElement {
       ABOUT
       </a>
       <div class="navdropdowncont">
-        <a href="">OWNERS</a>
-        <a href="">BUSINESS PHILOSOPHY</a>
-        <a href="">INTEGRITY</a>
+        <a href="./about/owners.html">OWNERS</a>
+        <a href="./about/business.html">BUSINESS PHILOSOPHY</a>
+        <a href="./about/integrity.html">INTEGRITY</a>
       </div>
       </div></li>
       <li><div class="navdropdown">
@@ -29,12 +29,12 @@ class BaseHeader extends HTMLElement {
         OPERATIONS
         </a>
         <div class="navdropdowncont">
-          <a href="">ASPHALT ROOFING</a>
-          <a href="">METAL ROOFING</a>
-          <a href="">SOLAR</a>
-          <a href="">SIDING</a>
-          <a href="">GUTTERS</a>
-          <a href="">INTERIOR/EXTERIOR PAINTING</a>
+          <a href="./operations/asphalt.html">ASPHALT ROOFING</a>
+          <a href="./operations/metal.html">METAL ROOFING</a>
+          <a href="./operations/solar.html">SOLAR</a>
+          <a href="./operations/siding.html">SIDING</a>
+          <a href="./operations/gutters.html">GUTTERS</a>
+          <a href="./operations/painting.html">INTERIOR/EXTERIOR PAINTING</a>
         </div>
         </div></li>
       <li><a href="./testimonials.html"> TESTIMONIALS</a></li>
@@ -43,7 +43,7 @@ class BaseHeader extends HTMLElement {
         CONTACT US
         </a>
         <div class="navdropdowncont">
-          <a href="">CAREERS</a>
+          <a href="./careers.html">CAREERS</a>
         </div>
         </div></li>
         <li><a href="./testimonials.html" class="circled"> ASAP-FIX</a></li>
