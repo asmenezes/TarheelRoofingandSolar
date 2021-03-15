@@ -37,7 +37,7 @@ class NestedHeader extends HTMLElement {
           <a href="">INTERIOR/EXTERIOR PAINTING</a>
         </div>
         </div></li>
-        <li><a href="../about/testimonials.html"> TESTIMONIALS</a></li>
+        <li><a href="../testimonials.html"> TESTIMONIALS</a></li>
       <li><div class="navdropdown">
         <a href="../contact.html">
         CONTACT US
