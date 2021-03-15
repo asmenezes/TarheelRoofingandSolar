@@ -299,6 +299,7 @@ background-image:url('../assets/sidepic.jpg');
   z-index: 2;
   min-height: 100vh;
   height: max-content;
+  padding-bottom: 1em;
 }
 .navlist.res li{
   display: block;
