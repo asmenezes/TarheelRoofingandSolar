@@ -113,6 +113,16 @@ input{
   text-align: center;
   color: white;
 }
+
+.fsocials{
+  display: grid;
+  grid-template-columns: 1fr repeat(3,min-content) 1fr;
+  grid-column-gap: 2em;
+  margin: 1em;
+}
+.soc{
+  max-height: 3em;
+}
 .heroheader{
   height: 300px;
   background-size: cover;
