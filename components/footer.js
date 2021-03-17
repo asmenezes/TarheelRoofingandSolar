@@ -9,9 +9,9 @@ class Footer extends HTMLElement {
 
   <div class="fsocials">
   <span></span>
-  <a href=""> <img src="./assets/InstaLogo.png" class = "soc" alt="instagram"/> </a>
-  <a href=""> <img src="./assets/yelp-icon.png" class = "soc" alt="yelp"/> </a>
-  <a href=""> <img src="./assets/Nextdoor.png" class = "soc" alt="Nextdoor"/> </a>
+  <a href=""> <img src="${this.getAttribute('nested')? '.':''}./assets/InstaLogo.png" class = "soc" alt="instagram"/> </a>
+  <a href=""> <img src="${this.getAttribute('nested')? '.':''}./assets/yelp-icon.png" class = "soc" alt="yelp"/> </a>
+  <a href=""> <img src="${this.getAttribute('nested')? '.':''}./assets/Nextdoor.png" class = "soc" alt="Nextdoor"/> </a>
   <span></span>
   </div>
 
