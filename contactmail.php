@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
 
 
   mail($to,$subject,$message,$headers);
-  header("Location: ./contact.html");
+  header("Location: ./contactfilled.html");
 }
 
 ?>
