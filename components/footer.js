@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
   <div class="fsocials">
   <span></span>
   <a href="https://www.instagram.com/tarheelroofingandsolar/" target="_blank"><img src="${this.getAttribute('nested')? '.':''}./assets/InstaLogo.png" class = "soc" alt="instagram"/></a>
-  <a href="https://www.instagram.com/tarheelroofingandsolar/" target="_blank"><img src="${this.getAttribute('nested')? '.':''}./assets/yelp-icon.png" class = "soc" alt="yelp"/> </a>
+  <a href="https://www.facebook.com/Tar-Heel-Roofing-and-Solar-LLC-103183615200630" target="_blank"><img src="${this.getAttribute('nested')? '.':''}./assets/facebookIcon.png" class = "soc" alt="yelp"/> </a>
   <a href="https://nextdoor.com/pages/tar-heel-roofing-and-solar-chapel-hill-nc/" target="_blank"><img src="${this.getAttribute('nested')? '.':''}./assets/Nextdoor.png" class = "soc" alt="Nextdoor"/></a>
   <span></span>
   </div>
