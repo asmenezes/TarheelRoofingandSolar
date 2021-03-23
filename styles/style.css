@@ -273,12 +273,12 @@ input{
   position: absolute;
   z-index: -10;
 
-  top: 45%;
-left: 45%;
-  -ms-transform: translateX(-45%) translateY(-45%);
--moz-transform: translateX(-45%) translateY(-45%);
--webkit-transform: translateX(-45%) translateY(-45%);
-transform: translateX(-45%) translateY(-45%);
+  top: 50%;
+left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
   background-size: cover;
 
 background-image:url('../assets/sidepic.jpg');
