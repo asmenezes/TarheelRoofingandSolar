@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Tarheel Roofing">
-    <meta name="keywords" content="Tarheel, NC, Roofing, Roofs">
-    <meta name="author" content="Andrew Menezes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-        <link rel="canonical" href="https://www.TarHeelRoofingandSolar.com/contact.html/" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Tarheel Roofing" />
+    <meta name="keywords" content="Tarheel, NC, Roofing, Roofs" />
+    <meta name="author" content="Andrew Menezes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="canonical"
+      href="https://www.TarHeelRoofingandSolar.com/contact.html/"
+    />
     <title>Contact | Tarheel Roofing and Solar | NC</title>
-    <script src = "./components/footer.js" type="text/javascript" defer></script>
-    <script src = "./components/baseheader.js" type="text/javascript" defer></script>
-    <script src = "./components/scripts.js" type="text/javascript" ></script>
-    <link rel="icon" type="image/x-icon" href="./assets/Favicon.png">
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script
+      src="./components/baseheader.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/scripts.js" type="text/javascript"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/Favicon.png" />
   </head>
   <base-header-component></base-header-component>
   <body>
     <div class="skinny">
       <h1 class="bigheading">CONTACT US</h1>
-      <p class="textpara">For questions, comments, quotes and refferals please fill out the form below. A team member will reach out as soon as possible.
+      <p class="textpara">
+        For questions, comments, quotes and refferals please fill out the form
+        below. A team member will reach out as soon as possible.
       </p>
       <!--Contact form-->
       <form class="formgrid" action="./contactmail.php" method="post">
         <label for="name">Name *</label>
-        <input type="text" name="name" value="">
+        <input type="text" name="name" value="" required />
         <label for="phone">Phone Number</label>
-        <input type="text" name="phone" value="">
-        <label for="email">Email Address *</label>
-        <input type="email" name="email" value="">
-        <label for="subject">Subject *</label>
-        <input type="text" name="subject" value="">
-        <label for="message">Message *</label>
-        <textarea name="message" rows="8" ></textarea>
+        <input type="text" name="phone" value="" />
+        <label for="email" required>Email Address *</label>
+        <input type="email" name="email" value="" />
+        <label for="subject" required>Subject *</label>
+        <input type="text" name="subject" value="" />
+        <label for="message" required>Message *</label>
+        <textarea name="message" rows="8"></textarea>
         <label for="addr">Service Address</label>
-        <input type="text" name="addr" value="">
+        <input type="text" name="addr" value="" />
         <label for="city">City</label>
-        <input type="text" name="city" value="">
+        <input type="text" name="city" value="" />
         <label for="state">State</label>
-        <input type="text" name="state" value="">
+        <input type="text" name="state" value="" />
         <label for="zip">Zip</label>
-        <input type="text" name="zip" value="">
-        <input type="submit" name="submit" value="SUBMIT" class="button">
+        <input type="text" name="zip" value="" />
+        <input type="submit" name="submit" value="SUBMIT" class="button" />
       </form>
-
-</div>
+    </div>
   </body>
-  <footer-component>
-  </footer-component>
+  <footer-component> </footer-component>
 </html>

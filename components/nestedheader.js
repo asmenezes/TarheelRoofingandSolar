@@ -2,7 +2,7 @@ class NestedHeader extends HTMLElement {
   constructor() {
     super();
   }
-  connectedCallback(){
+  connectedCallback() {
     this.innerHTML = `
     <header class = "baseheader" >
       <!--Navigation-->
@@ -20,30 +20,17 @@ class NestedHeader extends HTMLElement {
       </a>
       <div class="navdropdowncont">
         <a href="../under-construction.html">OWNERS</a>
-        <a href="../under-construction.html">BUSINESS PHILOSOPHY</a>
-        <a href="../under-construction.html">INTEGRITY</a>
+        <a href="../about/business.html">BUSINESS PHILOSOPHY</a>
       </div>
       </div></li>
-      <li><div class="navdropdown">
-        <a href="../under-construction.html">
-        OPERATIONS
-        </a>
-        <div class="navdropdowncont">
-          <a href="../under-construction.html">ASPHALT ROOFING</a>
-          <a href="../under-construction.html">METAL ROOFING</a>
-          <a href="../under-construction.html">SOLAR</a>
-          <a href="../under-construction.html">SIDING</a>
-          <a href="../under-construction.html">GUTTERS</a>
-          <a href="../under-construction.html">INTERIOR/EXTERIOR PAINTING</a>
-        </div>
-        </div></li>
+        <li><a href="../services.html">SERVICES</a></li>
         <li><a href="../testimonials.html"> TESTIMONIALS</a></li>
       <li><div class="navdropdown">
         <a href="../contact.html">
         CONTACT US
         </a>
         <div class="navdropdowncont">
-          <a href="../under-construction.html">CAREERS</a>
+          <a href="../careers.html">CAREERS</a>
         </div>
         </div></li>
           <li><a href="../under-construction.html" class="circled"> ASAP-FIX</a></li>
@@ -52,8 +39,8 @@ class NestedHeader extends HTMLElement {
 
 
     </header>
-    `
+    `;
   }
 }
 
-customElements.define('nested-header-component', NestedHeader);
+customElements.define("nested-header-component", NestedHeader);
