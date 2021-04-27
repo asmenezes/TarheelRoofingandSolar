@@ -23,7 +23,7 @@ class BaseHeader extends HTMLElement {
         <a href="./about/business.html">BUSINESS PHILOSOPHY</a>
       </div>
       </div></li>
-      <li><a href="./services.html">SERVICES</a></li>
+    
       <li><a href="./testimonials.html"> TESTIMONIALS</a></li>
       <li><div class="navdropdown">
         <a href="./contact.html">
